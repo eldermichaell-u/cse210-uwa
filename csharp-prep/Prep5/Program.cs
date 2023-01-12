@@ -9,7 +9,7 @@ class Program
         
         string userName = promptUserName();
 
-        int squareNumber = squareNumber();
+        int squareNumber = promptUserNumber();
 
         DisplayResult(userName, squareNumber);
 
