@@ -2,16 +2,15 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    public static void Main()
     {
         DisplayWelcomeMessage();
 
-        
         string userName = promptUserName();
 
         int squareNumber = promptUserNumber();
 
-        DisplayResult(userName, squareNumber);
+        DisplayResult(userName, SquareNumber(squareNumber));
 
     }
 
@@ -19,7 +18,14 @@ class Program
     {
         Console.WriteLine("Welcome to the program!");
     }
+    static int promptUserNumber()
+    {
+        Console.Write("Please enter your squareNumber: ");
 
+        int squareNumber = Convert.ToInt32(Console.ReadLine());
+
+        return squareNumber;
+    }
     static string promptUserName()
     {
         Console.Write("Please enter your name: ");
