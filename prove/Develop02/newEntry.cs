@@ -4,12 +4,12 @@ using System;
 public class newEntry
 
 {
-    string responseBack = "";
+    public string responseBack = "";
     
-    string prompt = "";
+    public string prompt = "";
     
+    public string date = "";
 
-    int date = "";
 
     public void Display(){
 
