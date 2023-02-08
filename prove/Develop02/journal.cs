@@ -1,5 +1,6 @@
 using System;
 
+
 public class Journal
 {
 public List<newEntry> dailyResponse = new List<newEntry>();
@@ -31,4 +32,3 @@ public List<newEntry> dailyResponse = new List<newEntry>();
     }
 
 }
-
