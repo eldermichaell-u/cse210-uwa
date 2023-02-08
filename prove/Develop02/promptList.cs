@@ -17,6 +17,9 @@ public class PromptList
     {
         Random randomGen = new Random();
         int randomNumber = randomGen.Next(dailyQuestions.Count);
+        string randomPrompt = dailyQuestions[randomNumber];
+
+        return randomPrompt;
         
     }
 
